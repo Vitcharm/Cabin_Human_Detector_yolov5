@@ -29,7 +29,7 @@ pip install -r thirdParty/yolov5/requirements.txt
 
 ### 完整版
 
-运行完整版检测脚本（会自动克隆YOLOv5仓库并安装依赖）：
+运行完整版检测脚本：
 
 ```bash
 python human_detector.py
