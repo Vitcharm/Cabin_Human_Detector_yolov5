@@ -22,7 +22,7 @@ def setup_yolov5():
 # 加载YOLOv5模型
 def load_model():
     # 检查本地是否存在yolov5s.pt模型文件
-    model_path = 'yolov5s.pt'
+    model_path = './thirdParty/yolov5s.pt'
     if os.path.exists(model_path):
         print(f"从本地加载模型: {model_path}")
         # 从本地加载模型，使用当前目录下的yolov5文件夹作为仓库路径
